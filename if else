@@ -1,0 +1,10 @@
+
+#   The else statement is used to specify a block of code to execute when none
+#    of the previous conditions (in the if and elif statements) are True.
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
